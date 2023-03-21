@@ -37,7 +37,7 @@ export default function Slide() {
             {
                 breakpoint: 500,
                 settings: {
-                    slidesToShow: 1.9,
+                    slidesToShow: 1,
                     slidesToScroll: 1,
                     arrows: false,
                     dots: false,
