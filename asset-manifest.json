@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/WeatherRepo/static/css/main.737acf3f.css",
+    "main.js": "/WeatherRepo/static/js/main.6f49db00.js",
+    "static/media/img7.jpg": "/WeatherRepo/static/media/img7.65b5996a7674ce58cc27.jpg",
+    "static/media/autumn.jpeg": "/WeatherRepo/static/media/autumn.aa6f03f1c65f286ec60a.jpeg",
+    "static/media/img12.jpg": "/WeatherRepo/static/media/img12.9c4d0ee82058ff0966b0.jpg",
+    "static/media/img10.jpg": "/WeatherRepo/static/media/img10.541b3681f3cb239b1946.jpg",
+    "static/media/img3.jpg": "/WeatherRepo/static/media/img3.82a653ea46e22b811c48.jpg",
+    "static/media/spring.jpg": "/WeatherRepo/static/media/spring.be1f724f0496ccbb47b2.jpg",
+    "static/media/img2.jpg": "/WeatherRepo/static/media/img2.a56d7c50302a3fcf8e45.jpg",
+    "static/media/sun.jpg": "/WeatherRepo/static/media/sun.62eb0f8ce76afc3b2ec0.jpg",
+    "static/media/img9.jpg": "/WeatherRepo/static/media/img9.37ad158f179b08d9b952.jpg",
+    "static/media/img5.jpg": "/WeatherRepo/static/media/img5.5df54ca97d18cbdfd7a5.jpg",
+    "static/media/winter.jpg": "/WeatherRepo/static/media/winter.76a21aec571cdd6b1310.jpg",
+    "static/media/img8.jpg": "/WeatherRepo/static/media/img8.18ff1fdbb33f7d334b4a.jpg",
+    "static/media/img6.jpg": "/WeatherRepo/static/media/img6.9f1287a4a57fee9f0fa9.jpg",
+    "static/media/img4.jpg": "/WeatherRepo/static/media/img4.4fbacd73815a9d859641.jpg",
+    "static/media/img11.jpg": "/WeatherRepo/static/media/img11.b6189affc65f851ca35c.jpg",
+    "static/media/logos.jpg": "/WeatherRepo/static/media/logos.e8b9b482666200115446.jpg",
+    "static/media/img1.jpg": "/WeatherRepo/static/media/img1.958bab036d1b299d1fbd.jpg",
+    "static/media/weatherIcon.webp": "/WeatherRepo/static/media/weatherIcon.6daff330ca7e57180331.webp",
+    "static/media/slick.svg": "/WeatherRepo/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/WeatherRepo/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/WeatherRepo/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/WeatherRepo/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/WeatherRepo/index.html",
+    "main.737acf3f.css.map": "/WeatherRepo/static/css/main.737acf3f.css.map",
+    "main.6f49db00.js.map": "/WeatherRepo/static/js/main.6f49db00.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.737acf3f.css",
+    "static/js/main.6f49db00.js"
+  ]
+}
