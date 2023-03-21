@@ -42,8 +42,8 @@ export default function Galery() {
                                     <RxCross2 size={19} />
                                 </button>
                             </div>
-                            <Zoom left>
-                                <img src={data.img} className="object-cover  hover:cursor-pointer w-[80%] h-[80%] max-w-[90%] min-h-[80%]" />
+                            <Zoom left >
+                                <img src={data.img} className="object-cover cursor-pointer hover:cursor-pointer w-[80%] h-[80%] max-w-[90%] min-h-[80%]" />
                             </Zoom>
                             <div className="flex mt-3 px-4 md:px-20 w-full justify-between absolute">
                                 <button onClick={() => imgAction('preImg')} className="rounded-md  text-white "><BsFillArrowLeftCircleFill size={25} /></button>
@@ -63,7 +63,12 @@ export default function Galery() {
                             <Masonry gutter="1rem">
                                 {images.map((image, index) => (
                                     <Zoom left key={index}>
-                                        <img src={image} className="w-full block rounded-md" onClick={() => viewImage(image, index)} />
+                                        <div className="flex w-full flex-col relative">
+                                            <div className="absolute flex w-full bg-black opacity-70 h-full items-center justify-center">
+                                                <button  onClick={() => viewImage(image, index)} className="absolute buttons">View Photo</button>
+                                            </div>
+                                            <img src={image} className="w-full cursor-pointer block rounded-md" onClick={() => viewImage(image, index)} />
+                                        </div>
                                     </Zoom>
                                 ))}
 

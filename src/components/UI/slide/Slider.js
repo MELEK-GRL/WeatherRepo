@@ -37,7 +37,7 @@ export default function Slide() {
             {
                 breakpoint: 500,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 1.8,
                     slidesToScroll: 1,
                     arrows: false,
                     dots: false,
@@ -56,13 +56,18 @@ export default function Slide() {
                     {imageData?.map((item, index) => (
                         <div key={index} className=" flex items-center justify-center flex-col">
                             <Jump>
-                                <div className="w-[90%] flex p-2  shadow-lg rounded-md  gap-2  items-center justify-center  flex-col">
+                                <div className="sm:w-[90%] w-[100%] flex p-2  shadow-lg rounded-md  gap-2  items-center justify-center  flex-col">
                                     <Zoom>
-                                        <img
-                                            alt={item.img}
-                                            src={item.img}
-                                            className="shadow-2xl h-[150px] w-[150px] object-cover rounded-full border border-gray-300"
-                                        />
+                                        <div className="flex w-full  flex-col relative">
+                                            <div className="absolute flex  w-[70px] text-white h-[70px] rounded-full bg-black opacity-70 items-center justify-center">
+                                              <span className="p-4 bg-white text-blue-900 rounded-full  text-[16px] font-semibold">{item.title}</span>
+                                            </div>
+                                            <img
+                                                    alt={item.img}
+                                                    src={item.img}
+                                                    className="shadow-2xl h-[150px] w-[150px] object-cover rounded-full border border-gray-300"
+                                                />
+                                        </div>
                                     </Zoom>
                                 </div>
                             </Jump>

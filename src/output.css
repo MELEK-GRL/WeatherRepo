@@ -579,8 +579,8 @@ video {
   z-index: 20;
 }
 
-.mb-5 {
-  margin-bottom: 1.25rem;
+.mb-11 {
+  margin-bottom: 2.75rem;
 }
 
 .mr-6 {
@@ -593,30 +593,6 @@ video {
 
 .mt-4 {
   margin-top: 1rem;
-}
-
-.mb-1 {
-  margin-bottom: 0.25rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
-.mb-9 {
-  margin-bottom: 2.25rem;
-}
-
-.mb-11 {
-  margin-bottom: 2.75rem;
-}
-
-.mr-8 {
-  margin-right: 2rem;
-}
-
-.mr-4 {
-  margin-right: 1rem;
 }
 
 .block {
@@ -643,16 +619,20 @@ video {
   height: 230px;
 }
 
+.h-\[70px\] {
+  height: 70px;
+}
+
 .h-\[710px\] {
   height: 710px;
 }
 
-.h-\[80\%\] {
-  height: 80%;
+.h-\[725px\] {
+  height: 725px;
 }
 
-.h-\[820px\] {
-  height: 820px;
+.h-\[80\%\] {
+  height: 80%;
 }
 
 .h-fit {
@@ -665,24 +645,8 @@ video {
   height: 100%;
 }
 
-.h-\[700px\] {
-  height: 700px;
-}
-
-.h-\[720px\] {
-  height: 720px;
-}
-
-.h-\[725px\] {
-  height: 725px;
-}
-
 .max-h-\[4000px\] {
   max-height: 4000px;
-}
-
-.max-h-\[7000px\] {
-  max-height: 7000px;
 }
 
 .min-h-\[720px\] {
@@ -693,20 +657,12 @@ video {
   min-height: 80%;
 }
 
-.min-h-\[800px\] {
-  min-height: 800px;
-}
-
-.min-h-\[700px\] {
-  min-height: 700px;
-}
-
-.min-h-\[7000px\] {
-  min-height: 7000px;
-}
-
 .w-16 {
   width: 4rem;
+}
+
+.w-\[100\%\] {
+  width: 100%;
 }
 
 .w-\[150px\] {
@@ -715,6 +671,10 @@ video {
 
 .w-\[25\%\] {
   width: 25%;
+}
+
+.w-\[70px\] {
+  width: 70px;
 }
 
 .w-\[80\%\] {
@@ -847,8 +807,9 @@ video {
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
 }
 
-.object-contain {
-  object-fit: contain;
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .object-cover {
@@ -922,6 +883,10 @@ video {
   font-size: 15px;
 }
 
+.text-\[16px\] {
+  font-size: 16px;
+}
+
 .text-\[20px\] {
   font-size: 20px;
 }
@@ -943,6 +908,11 @@ video {
   font-weight: 600;
 }
 
+.text-blue-900 {
+  --tw-text-opacity: 1;
+  color: rgb(30 58 138 / var(--tw-text-opacity));
+}
+
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
@@ -955,6 +925,10 @@ video {
 
 .opacity-60 {
   opacity: 0.6;
+}
+
+.opacity-70 {
+  opacity: 0.7;
 }
 
 .shadow-2xl {
@@ -1129,6 +1103,10 @@ video {
 
   .sm\:w-\[50\%\] {
     width: 50%;
+  }
+
+  .sm\:w-\[90\%\] {
+    width: 90%;
   }
 
   .sm\:w-full {
